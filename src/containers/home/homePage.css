@@ -1,0 +1,58 @@
+.homePage {
+    background-color: #333;
+    color: #FFF;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.homePage_topicList {
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+
+}
+
+.homePage_topicList_topic {
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 80px;
+
+}
+.homePage_topicList_topic:hover{
+    box-shadow: 2px 1px 6px 4px rgba(250, 255, 242, 1);
+}
+
+.topicLogo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+
+}
+
+.topicDescription {
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    background-color: #262626;
+    padding: 20px
+}
+
+.homePage__createTopic{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
